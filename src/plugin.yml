@@ -1,0 +1,4 @@
+name: BlockBlastCommand
+main: net.blockblast.command.BlockBlastCommand
+version: 1.0
+authors: [AlexzanderFlores, BlockBlast]
