@@ -1,6 +1,6 @@
 package net.blockblast.command;
 
-import net.blockblast.api.Msg;
+import net.blockblastapi.Msg;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -51,7 +51,7 @@ public abstract class CommandBase extends BukkitCommand implements CommandExecut
 
     public CommandBase enableDelay(int delay) {
         this.delay = delay;
-        this.delayedPlayers = new ArrayList<>();
+        this.delayedPlayers = new ArrayList<String>();
         return this;
     }
 
